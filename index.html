@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MySide</title>
+    <script src="https://kit.fontawesome.com/fdcd164a1f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap" rel="stylesheet">
+    <!--SASS-->
+    <link rel="stylesheet" href="css/Style.css">
+</head>
+<body>
+
+<audio id="player" autoplay  src="./Music/Last%20Christmas%20Remix%20-%20Merry%20Christmas%20%20Nhạc%20Giáng%20Sinh%20Remix%20Sôi%20Động%20Hay%20N_256k.mp3"></audio>
+
+<div class="container">
+    <div class="home">
+        <h1>Marry Christmas</h1>
+        <hr>
+        <div class="upset">
+            <h2>Music</h2>
+            <div class="up-set-cal">
+                <div class="guns">
+                    <span class="btn-music">Last Christmas</span>
+                    <div class="btn-controls">
+                        <button onclick="document.getElementById('player').play()"><i class="btn-music fa-solid fa-play"></i></button>
+                        <button onclick="document.getElementById('player').pause()"><i class="fa-solid fa-pause"></i></button>
+                        <button onclick="document.getElementById('player').volume += 0.1"><i class="fa-solid fa-volume-high"></i></button>
+                        <button onclick="document.getElementById('player').volume -= 0.1"><i class="fa-solid fa-volume-low"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
