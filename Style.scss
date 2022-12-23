@@ -12,7 +12,7 @@
 }
 
 body{
-  background-image: url("http://almode.ru/uploads/posts/2021-12/1639030382_38-almode-ru-p-novogodnii-fon-dlya-otkritki-38.jpg");
+  background-image: url("/img/1639030382_38-almode-ru-p-novogodnii-fon-dlya-otkritki-38.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -59,9 +59,22 @@ body{
           flex-direction: column;
           padding: 20px;
           width: 23rem;
-          height: 200rem;
+          height: 140rem;
           background: rgba(0, 0, 0, 0.28);
           border-radius: 10px;
+          margin-bottom: 3rem;
+          p{
+            font-size: 20px;
+            color: white;
+          }
+          h1{
+            font-size: 25px;
+            margin-top: 10px;
+            -webkit-text-stroke: 2px black;
+            color: #030379;
+            text-align: center;
+            font-family: 'Mountains of Christmas', cursive;
+          }
           .guns{
             padding-bottom: 20px;
             border-bottom: 2px solid black;
@@ -75,7 +88,6 @@ body{
               align-items: center;
               font-size: 1.5rem;
               color: white;
-              padding-right: 3rem ;
             }
             .btn-controls{
               display: flex;
